@@ -2,4 +2,4 @@
 -  hosts: dochost
    tasks: 
    -   name: create container
-       shell: docker run -itd --name cicdcont -p 9090:80 <dockerhub ashishpatel0123>/contimage  
+       shell: docker run -itd --name cicdcont -p 9090:80 ashishpatel0123/myrepo:cicdimg
