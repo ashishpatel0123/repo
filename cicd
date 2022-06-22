@@ -1,5 +1,0 @@
----
--  hosts: dochost
-   tasks: 
-   -   name: create container
-       shell: docker run -itd --name cicdcont -p 9090:80 ashishpatel0123/myrepo:cicdimg
